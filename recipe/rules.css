@@ -1,0 +1,14 @@
+h1 {width:540px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    }
+h2 {color:#e4b574;}
+body {border: dotted;
+    padding: 10px;
+    background-color:#f6f2ed;
+    font-family: 'Times New Roman', Times, serif;
+    }
+header {
+    background-color: #EBC898;    
+        padding: 20px;
+   }
