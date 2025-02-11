@@ -12,3 +12,6 @@ header {
     background-color: #EBC898;    
         padding: 20px;
    }
+   img {
+    float: right;
+  }
