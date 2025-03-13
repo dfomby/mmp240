@@ -1,3 +1,4 @@
+
 #wrapper {
 
     width:1200px;
@@ -27,14 +28,42 @@ header{
 }
 
 nav li{
-    display:inline;
-    margin-right: 3em;
+    display:inline-block;
+   
 }
 nav {
     background-color:  rgb(60, 87, 227);
-    padding: 0.5em;
+}
+
+nav ul{
+    margin:0;
 }
 nav a{
     color:white;
     text-decoration: none;
+    padding: 0.7em 3em;
+    display: inline-block;
+}
+nav a:hover{
+background-color: rgb(244, 237, 53);
+
+}
+
+.col{
+    width: 48%;
+    float: left;
+    margin-right:4%;
+}
+
+.col:last-child{
+    margin-right: 0;
+}
+
+footer {
+    clear:both;
+  
+}
+
+h2{
+    font-size: 1.9em;
 }
