@@ -46,6 +46,7 @@ nav a{
 }
 nav a:hover{
 background-color: rgb(244, 237, 53);
+color:black;
 
 }
 
@@ -66,4 +67,30 @@ footer {
 
 h2{
     font-size: 1.9em;
+}
+
+/* Episode page styles */
+.episodes {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.episode-card{
+    width:270px;
+    margin-right: 26px;
+    margin-bottom:26px;
+    border:solid 2px  rgb(77, 81, 106);
+    
+}
+
+.episode-card img{
+    width:100%;
+}
+
+.episode-card:last-child{
+    margin-right:0;
+}
+
+.episode-card p, .episode-card h4{
+    margin:1em;
 }
