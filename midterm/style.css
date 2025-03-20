@@ -1,7 +1,7 @@
 
 #wrapper {
 
-    width:1200px;
+    max-width: 1200px;
     margin-left:auto;
     margin-right:auto;
     background-color: rgb(255, 255, 255);
@@ -11,7 +11,7 @@ header{
     padding:4em 1em;
     background: 
     linear-gradient(90deg, rgba(26,64,110,1) 1%, rgba(56,97,139,1) 27%, rgba(0,0,0,0) 62%),
-    url("images/invinciblebanner.jpg") no-repeat 220px;
+    url("images/invinciblebanner.jpg") no-repeat right;
 }
 .banner-text {
     color: #fff;
@@ -73,23 +73,29 @@ h2{
 .episodes {
     display:flex;
     flex-wrap: wrap;
+   justify-content: center;
 }
 
 .episode-card{
-    width:270px;
-    margin-right: 26px;
-    margin-bottom:26px;
+    width:260px;
+    margin-left: 23px;
+    margin-right: 13px;
+
+    margin-bottom:36px;
     border:solid 2px  rgb(77, 81, 106);
+    flex:0 1 auto; /* flex-grow flex-shrink flex-basis */
+    
     
 }
 
 .episode-card img{
-    width:100%;
+    width: 260px;
+    height:150px;
 }
 
-.episode-card:last-child{
+/*.episode-card:last-child{
     margin-right:0;
-}
+}*/
 
 .episode-card p, .episode-card h4{
     margin:1em;
