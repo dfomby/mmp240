@@ -184,10 +184,13 @@ article a{
         background-color:rgb(24, 96, 93);
         align-items: center;
         z-index: 0;
-      
-     
-       
     }
+     #top-nav li a{
+        padding-block: 20px;
+        margin-left: -4px;
+     }
+       
+    
     #top-nav ul{
         display:flex;
        
@@ -196,9 +199,9 @@ article a{
     #top-nav ul a{
         border:none;
         color:white;
-        padding-left:0.1em;
-
+        
     }
+    
     #top-nav li{
         margin:0 1em;
     }
