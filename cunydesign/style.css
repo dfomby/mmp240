@@ -85,7 +85,7 @@ nav ul{
 .dropdown{
     background-color: #A1CECB;
     margin-bottom:1em;
-    
+    padding:4px;
     border-radius: 10px;
   
 }
@@ -232,19 +232,30 @@ article a{
 
    .dropdown{
     width:32%;
+   
+  
     
    }
    .dropdown:hover ul{
     border-style:solid;
     border-color:#A1CECB;
+    border-width: 6px;
+    border-radius: 0 0 10px 10px;
+   
    }
 
    .dropdown ul{
     position:absolute;
-    width:30.5%;
-    
+  width: 31%;
 
+    padding: 3px;
+margin-block: auto;
+    margin-top: -5.5px;
+ 
+   
    }
+
+  
    .btn{
     margin-left: 1em;
    }
