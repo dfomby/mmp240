@@ -85,7 +85,7 @@ nav ul{
 .dropdown{
     background-color: #A1CECB;
     margin-bottom:1em;
-    padding:4px;
+   padding:4px;
     border-radius: 10px;
   
 }
@@ -112,6 +112,7 @@ nav ul{
 .dropdown li a{
     display:block;
     color:black;
+    
 }
 
 .dropdown li a:hover{
@@ -235,27 +236,26 @@ article a{
 
    .dropdown{
     width:32%;
-   
-  
+   padding:0;
+  font-size:1.2rem;
     
    }
-   .dropdown:hover ul{
-    border-style:solid;
-    border-color:#A1CECB;
-    border-width: 6px;
-    border-radius: 0 0 10px 10px;
-   
-   }
+  .dropdown:hover{
+    border-radius: 10px 10px 0 0;
+    
+  }
 
    .dropdown ul{
     position:absolute;
-  width: 31%;
-
-    padding: 3px;
-margin-block: auto;
-    margin-top: -5.5px;
- 
-   
+  
+box-sizing:  border-box;
+width:32%;
+    margin-top: -5px;
+    border-style:solid;
+    border-color:#A1CECB;
+border-width: 4px;
+    border-radius: 0 0 10px 10px;
+  
    }
 
   
