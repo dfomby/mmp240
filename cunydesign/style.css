@@ -141,7 +141,7 @@ article h3{
     background-color:rgba(24, 96, 92, 0.679);
     color:white;
     padding:1em;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .btn{
@@ -151,8 +151,12 @@ article h3{
     padding: 0.5em 1em;
     border-radius: 10px;
     display:inline-block;
+    margin-bottom: 2em;
 }
 
+.btn:hover{
+   box-shadow: 5px 5px 5px #6c736fbe
+}
 
 /* main content */
 
