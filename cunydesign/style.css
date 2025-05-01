@@ -177,6 +177,49 @@ article a{
     color:black;
 }
 
+/* Program Cards */
+.card{
+    border:solid 4px #A1CECB;
+    border-radius: 10px;
+    transition-property: box-shadow, transform;
+    transition-duration:0.5s;
+}
+
+.card-body{
+    padding:1em;
+}
+
+.card img {
+    border-radius: 6px 6px 0 0 ;
+}
+
+.card h3{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.card h2{
+margin-top: 1px;
+}
+
+.card:hover{
+   box-shadow: 5px 5px 5px #4a4a4a;  /* X shift, Y shift, Blur, Color */
+  transform:translateY(-5px)
+}
+
+/* Utility Classes */
+.responsive-img{
+width:100%;
+}
+
+.c-black{
+    color:black;
+}
+
+.no-underline{
+    text-decoration:none;
+}
 
 @media (min-width:768px){
     .material-symbols-outlined{
