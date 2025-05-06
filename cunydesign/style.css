@@ -1,319 +1,348 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-body{
+body {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-style: normal;
-  
+
 }
-h1{
-    font-size:1.4rem;
+
+h1 {
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
-h1 a{
+h1 a {
     display: inline-block;
     text-decoration: none;
-    color:white;
+    color: white;
     padding: 0px 5px;
 }
 
 
 
-header{
-    display:flex;
+header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative;
-    background-color:rgb(24, 96, 93) ;
+    position: relative;
+    background-color: rgb(24, 96, 93);
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
+
 /** menu bar **/
-#top-nav{
+#top-nav {
     position: absolute;
     display: none;
     text-align: center;
     right: 0;
     top: 40px;
-    z-index:100;
-    border:solid 1px black;
+    z-index: 100;
+    border: solid 1px black;
     background-color: #c8e2e5;
 }
 
-#top-nav a{
+#top-nav a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
-#top-nav a:hover{
+#top-nav a:hover {
     background-color: #F88F33;
 }
-.menuwrap:hover #top-nav{
-    display:block;
-  
+
+.menuwrap:hover #top-nav {
+    display: block;
+
 }
 
 
-#top-nav ul a{
-    display:block;
-    padding:5px;
+#top-nav ul a {
+    display: block;
+    padding: 5px;
     border-bottom: solid 1px black;
 }
 
-#top-nav input{
-    display:block;
+#top-nav input {
+    display: block;
     margin: 10px 5px;
 }
+
 /** menu bar end **/
 
 
-.material-symbols-outlined{
-    float:right; 
-  
+.material-symbols-outlined {
+    float: right;
+
 }
 
 
-.dropdown{
+.dropdown {
     background-color: #A1CECB;
-    margin-bottom:1em;
-   padding:4px;
+    margin-bottom: 1em;
+    padding: 4px;
     border-radius: 10px;
-  
+
 }
+
 .dropdown ul {
     background-color: rgb(255, 255, 255);
-    display:none;
+    display: none;
     border-radius: 10px;
-    padding:3px;
+    padding: 3px;
 }
 
 
-.dropdown:hover ul{
-    display:block;
+.dropdown:hover ul {
+    display: block;
 }
 
-.dropdown a{
+.dropdown a {
     text-decoration: none;
-    color:black;
-    padding:5px;
-    display:block;
+    color: black;
+    padding: 5px;
+    display: block;
 
 }
 
-.dropdown li a{
-    display:block;
-    color:black;
-    
+.dropdown li a {
+    display: block;
+    color: black;
+
 }
 
-.dropdown li a:hover{
-    background-color:#F88F33;
+.dropdown li a:hover {
+    background-color: #F88F33;
     border-radius: 10px;
 }
 
 
-section h2{
-    font-size:1.2rem;
-    text-transform:uppercase;
+section h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
-article h3{
-    font-size:1rem;
+article h3 {
+    font-size: 1rem;
 }
 
 /* hero banner */
 
-.hero{
+.hero {
     background: url("images/banner.png") no-repeat center/cover;
-    padding:2em;
+    padding: 2em;
 }
 
-.hero p{
-    background-color:rgba(24, 96, 92, 0.679);
-    color:white;
-    padding:1em;
+.hero p {
+    background-color: rgba(24, 96, 92, 0.679);
+    color: white;
+    padding: 1em;
     margin-bottom: 1em;
 }
 
-.btn{
-    color:#000000;
-    background-color:#F88F33;
+.btn {
+    color: #000000;
+    background-color: #F88F33;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 10px;
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 2em;
 }
 
-.btn:hover{
-   box-shadow: 5px 5px 5px #6c736fbe
+.btn:hover {
+    box-shadow: 5px 5px 5px #6c736fbe
 }
 
 /* main content */
 
 article {
-    margin-bottom:3em;
+    margin-bottom: 3em;
 }
 
-article img{
-    max-width: 100%; /* the image will take the size of its container if the container is smaller than the image. Otherwise it will not change its size. */
+article img {
+    max-width: 100%;
+    /* the image will take the size of its container if the container is smaller than the image. Otherwise it will not change its size. */
 }
 
-article a:hover{
-    background-color:#F88F33;
-    color:#000000;
+article a:hover {
+    background-color: #F88F33;
+    color: #000000;
 }
 
-article a{
-    color:black;
+article a {
+    color: black;
 }
 
 /* Program Cards */
-.card{
-    border:solid 4px #A1CECB;
+.card {
+    border: solid 4px #A1CECB;
     border-radius: 10px;
     transition-property: box-shadow, transform;
-    transition-duration:0.5s;
+    transition-duration: 0.5s;
+    margin-bottom: 2em;
 }
 
-.card-body{
-    padding:1em;
+.card-body {
+    padding: 1em;
 }
 
 .card img {
-    border-radius: 6px 6px 0 0 ;
+    border-radius: 6px 6px 0 0;
 }
 
-.card h3{
+.card h3 {
     font-size: 0.8em;
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
-.card h2{
-margin-top: 1px;
+.card h2 {
+    margin-top: 0;
+    font-size: 1.2em;
 }
 
-.card:hover{
-   box-shadow: 5px 5px 5px #4a4a4a;  /* X shift, Y shift, Blur, Color */
-  transform:translateY(-5px)
+.card h2 span{
+    font-weight: normal;
+}
+.card:hover {
+    box-shadow: 5px 5px 5px #4a4a4a;
+    /* X shift, Y shift, Blur, Color */
+    transform: translateY(-5px)
 }
 
 /* Utility Classes */
-.responsive-img{
-width:100%;
+.responsive-img {
+    width: 100%;
 }
 
-.c-black{
-    color:black;
+.c-black {
+    color: black;
 }
 
-.no-underline{
-    text-decoration:none;
+.no-underline {
+    text-decoration: none;
 }
 
-@media (min-width:768px){
-    .material-symbols-outlined{
-        display:none;
+@media (min-width:768px) {
+    .material-symbols-outlined {
+        display: none;
     }
-    #top-nav{
-        display:flex;
-        position:static;
+
+    #top-nav {
+        display: flex;
+        position: static;
         border: none;
-        background-color:rgb(24, 96, 93);
+        background-color: rgb(24, 96, 93);
         align-items: center;
         z-index: 0;
     }
-     #top-nav li a{
+
+    #top-nav li a {
         padding-block: 20px;
         margin-left: -4px;
-     }
-       
-    
-    #top-nav ul{
-        display:flex;
-       
+    }
+
+
+    #top-nav ul {
+        display: flex;
+
 
     }
-    #top-nav ul a{
-        border:none;
-        color:white;
-        
+
+    #top-nav ul a {
+        border: none;
+        color: white;
+
     }
-    
-    #top-nav li{
-        margin:0 1em;
+
+    #top-nav li {
+        margin: 0 1em;
     }
-    .menuwrap:hover #top-nav{
-        display:flex;
-      
+
+    .menuwrap:hover #top-nav {
+        display: flex;
+
     }
-   .hero{
-    
-    background: 
-    linear-gradient(90deg, rgba(161, 206, 203, 1) 2%, rgba(220, 176, 114, 0.949) 40%, rgba(214, 164, 117, 0) 70%),
-    url("images/banner.png") no-repeat right/cover;
 
-   }
+    .hero {
 
-   .hero p{
-    background-color:#00000000;
+        background:
+            linear-gradient(90deg, rgba(161, 206, 203, 1) 2%, rgba(220, 176, 114, 0.949) 40%, rgba(214, 164, 117, 0) 70%),
+            url("images/banner.png") no-repeat right/cover;
 
-    font-size: 1.5em;
-  width: 35%;
-  color:black;
+    }
+
+    .hero p {
+        background-color: #00000000;
+
+        font-size: 1.5em;
+        width: 35%;
+        color: black;
 
 
-   }
+    }
 
-   .programs-menu{
-    display:flex;
-    position:relative;
-    justify-content:space-between;
-   }
+    .programs-menu {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
 
-   .dropdown{
-    width:32%;
-   padding:0;
-  font-size:1.2rem;
+    .dropdown {
+        width: 32%;
+        padding: 0;
+        font-size: 1.2rem;
 
-    
-   }
-  .dropdown:hover{
-    border-radius: 10px 10px 0 0;
-    
-  }
 
-   .dropdown ul{
-    position:absolute;
-  
-box-sizing:  border-box;
-width:32%;
-    margin-top: -5px;
-    border-style:solid;
-    border-color:#A1CECB;
-border-width: 4px;
-    border-radius: 0 0 10px 10px;
-  
-   }
+    }
 
-  
-   .btn{
-    margin-left: 1em;
-   }
-.home main{
-    display:grid;
-    grid-template-columns:minmax(400px, 1fr) 1fr;
-    grid-gap: 2em;
-}
+    .dropdown:hover {
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    .dropdown ul {
+        position: absolute;
+
+        box-sizing: border-box;
+        width: 32%;
+        margin-top: -5px;
+        border-style: solid;
+        border-color: #A1CECB;
+        border-width: 4px;
+        border-radius: 0 0 10px 10px;
+
+    }
+
+
+    .btn {
+        margin-left: 1em;
+    }
+
+    .home main {
+        display: grid;
+        grid-template-columns: minmax(400px, 1fr) 1fr;
+        grid-gap: 2em;
+    }
+
+    .programs-cards{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap:1em;
+    }
+
+    .card{
+        height:98%;
+    }
 
 }
