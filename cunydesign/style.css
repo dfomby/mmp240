@@ -11,10 +11,11 @@ body {
 
 
 h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    font-family: "Bodoni Moda", serif;
-    font-weight: 600;
+    font-family: "Bodoni Moda", sans-serif;
+    letter-spacing: 0.05rem;
+  
     font-style: normal;
 
 }
@@ -252,7 +253,7 @@ article a {
     }
 
     #top-nav li a {
-        padding-block: 20px;
+        padding-block: 23px;
         margin-left: -4px;
     }
 
