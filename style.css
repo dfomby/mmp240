@@ -1,14 +1,38 @@
-nav img{
-    float:right;
-    Width:100px;
-    border:none;
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-   
+body {
+    font-family: "Merriweather", serif;
+}
+
+#name {
+    border-style: solid;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: rgb(132, 109, 150);
+    background-color: #f4f9ff;
+
+
+}
+
+#name h2,
+h3 {
+    text-align: center;
+    margin:5px;
+}
+
+nav img {
+    float: right;
+    Width: 100px;
+    border: none;
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 0;
     margin-right: 0;
-    
+
     border: none;
- 
+
     align-items: center;
     z-index: 0;
 }
@@ -19,30 +43,29 @@ nav ul {
     margin: 0;
 }
 
-nav img:hover{
+nav img:hover {
     background-color: #7499cd;
 }
 
 
-img{
-   
-    max-width: 60%;
-    float:right;
+img {
 
+    max-width: 50%;
+    float: right;
     border-radius: 4%;
     border-style: solid;
     border-width: 2px;
-    border-color:#6089c3;
-   
+    border-color: #6089c3;
+
 }
 
 p {
-font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
 h1 {
     font-size: 1.4rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Limelight", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -72,11 +95,11 @@ header {
 
 
 .dropdown {
-    background-color:#83c3e1;
-    margin-bottom: 1em;
+    background-color: #83c3e1;
+    margin-bottom: 1.2em;
     padding: 4px;
     border-radius: 10px;
-    width: 30%;
+    width: 45%;
 
 }
 
@@ -111,5 +134,4 @@ header {
     border-radius: 10px;
 }
 
-/*drop down*/
-
+/* drop down */

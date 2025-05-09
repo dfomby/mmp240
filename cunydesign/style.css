@@ -15,7 +15,7 @@ h1 {
     text-transform: uppercase;
     font-family: "Bodoni Moda", sans-serif;
     letter-spacing: 0.05rem;
-  
+
     font-style: normal;
 
 }
@@ -195,6 +195,7 @@ article a {
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
     margin-bottom: 2em;
+
 }
 
 .card-body {
@@ -216,9 +217,10 @@ article a {
     font-size: 1.2em;
 }
 
-.card h2 span{
+.card h2 span {
     font-weight: normal;
 }
+
 .card:hover {
     box-shadow: 5px 5px 5px #4a4a4a;
     /* X shift, Y shift, Blur, Color */
@@ -340,14 +342,15 @@ article a {
         grid-gap: 2em;
     }
 
-    .programs-cards{
-        display:grid;
+    .programs-cards {
+        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        grid-gap:1em;
+        grid-gap: 1em;
     }
 
-    .card{
-        height:98%;
+    .card {
+        height: 98%;
+
     }
 
 }
