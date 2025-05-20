@@ -69,6 +69,9 @@ nav ul {
 
 }
 
+.menuwrap .material-symbols-outlined {
+    color: white;
+}
 
 #top-nav ul a {
     display: block;
@@ -326,9 +329,11 @@ article a {
 
     .home main {
         display: grid;
-        grid-template-columns: minmax(400px, 1fr) 1fr;
-        grid-gap: 2em;
+        grid-template-columns: minmax(400px, 1fr) 0.5fr;
+        grid-gap: 3em;
     }
+
+   
 
     .programs-cards {
         display: grid;
