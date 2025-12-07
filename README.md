@@ -1,3 +1,3 @@
 # MMP 240
-Course template
+Website Link
 https://dfomby.github.io/mmp240/
